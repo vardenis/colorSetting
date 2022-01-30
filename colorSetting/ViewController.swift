@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     
     @IBOutlet var colorWindow: UIView!
     
-    var redColorValue: CGFloat!
-    var greenColorValue: CGFloat!
-    var blueColorValue: CGFloat!
+    private var redColorValue: CGFloat!
+    private var greenColorValue: CGFloat!
+    private var blueColorValue: CGFloat!
     
     
     override func viewDidLoad() {
